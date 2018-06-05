@@ -8,16 +8,6 @@ return [
         'renderer' => [
             'template_path' => __DIR__ . '/../templates/',
         ],
-        'db' => [
-                'driver'    => 'mysql',
-                'host'      => 'localhost',
-                'database'  => 'osada',
-                'username'  => 'root',
-                'password'  => '',
-                'charset'   => 'utf8',
-                'collation' => 'utf8_general_ci',
-                'prefix'    => ''
-        ],
         // Monolog settings
         'logger' => [
             'name' => 'slim-app',
